@@ -57,6 +57,31 @@ public class main {
         are the actual value that we pass to these methods 
     */
 
+    System.out.println(message);
+    System.out.println(message.toLowerCase());
+    System.out.println(message.toUpperCase());
+    System.out.println(message.trim());//get rid of white spaces at the beginning
+
+    // Back-Slashes
+    String text = "Hello \"Husna\"";
+    System.out.println(text);
+
+    // c:\Windows\...
+    String window= "c:\\Window\\...";
+    System.out.println(window);
+
+    // new line \n
+    // tab \t
+    
+
+
+
+
+
+
+
+
+
 
 
 
