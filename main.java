@@ -1,6 +1,7 @@
 package practices.java_mosh_;
 
 import java.awt.Point;
+import java.util.Arrays;
 import java.util.Date;
 
 public class main {
@@ -72,7 +73,39 @@ public class main {
 
     // new line \n
     // tab \t
+
+    //Arrays
+    //used to store a list of items, people, num
+    int[] numbers = new int[9];
+    numbers[0] = 1;
+    numbers[1] = 2;
+    numbers[2] = 3;
+    numbers[3] = 4;
+    System.out.println(Arrays.toString(numbers));
+    System.out.println(numbers.length); 
     
+    int[] num= {7, 8, 9, 6};
+    System.out.println(num.length);
+
+    Arrays.sort(numbers);
+    System.out.println(Arrays.toString(numbers));
+
+    //Multi-dimentional Array
+    // 2 dimentional array to store matrics
+    // 3 dimentional array to store data for cube
+
+    int [][] countNum = new int[2][3]; // 2 rows, 3 columns
+    countNum[0][0]= 1; 
+    //first row, first column
+    System.out.println(Arrays.deepToString(countNum));
+    // deepToString to print multi dimentional array
+
+    int [][][] amount = new int [5][4][3];
+    System.out.println(Arrays.deepToString(amount));
+
+    int [][] priceNum = {{1, 2, 3}, {4, 5, 6}};
+    System.out.println(Arrays.deepToString(priceNum));
+
 
 
 
