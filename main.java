@@ -106,9 +106,12 @@ public class main {
     int [][] priceNum = {{1, 2, 3}, {4, 5, 6}};
     System.out.println(Arrays.deepToString(priceNum));
 
+    //Constants
+   final float PI = 3.14F; // final change it to constant
+     
 
 
-
+    
 
 
 
