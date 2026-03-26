@@ -109,6 +109,40 @@ public class main {
     //Constants
    final float PI = 3.14F; // final change it to constant
      
+  //Arithmetic Expressions
+  // + - * / %
+  int result = 10+3;
+  System.out.println(result);
+
+  int results = 10/3;//in java the division of two whole number, is a whole number.
+  System.out.println(results);
+
+  double finalResult = (double)10 / (double)3;
+  System.out.println(finalResult);
+
+  // increment operator
+  int z = 31;
+  //postfix
+  int h = ++z;
+  System.out.println(z);
+  System.out.println(h);
+  //++z prefix
+  //z++ postfix
+
+  int u = 3;
+  u =  u + 2;
+  u += 5; //compound assignment operator, augmented operators
+  System.out.println(u);
+
+  //order od operation
+  
+
+
+
+
+
+
+
 
 
     
