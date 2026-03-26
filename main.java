@@ -145,6 +145,29 @@ public class main {
   int w = (10 + 3) * 2;
   System.out.println(w);
 
+  //casting
+  // implicit casting, automatic casting
+  // byte > short > int > long > float > double
+  // byte can be automtically converted to short, short to int, int to long
+  short e = 1;
+  int f = e + 2;
+  System.out.println(f);
+
+  double a = 1.1; 
+  double b = a + 2;
+  System.out.println(b);
+
+  int v = (int)a + 2;//explicit casting, we convert "a" to an int
+  
+  // we can't cast a string to a number
+
+  String city = "1";
+  //1: 12 min 
+
+
+
+
+
 
 
 
