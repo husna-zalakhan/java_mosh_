@@ -134,8 +134,19 @@ public class main {
   u += 5; //compound assignment operator, augmented operators
   System.out.println(u);
 
-  //order od operation
+  /*order and operation
+  ()
+  * /
+  + -
+  */
+  int r = 10 + 3 * 2;
+  System.out.println(r);
   
+  int w = (10 + 3) * 2;
+  System.out.println(w);
+
+
+
 
 
 
