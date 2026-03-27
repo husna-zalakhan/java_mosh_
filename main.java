@@ -223,6 +223,19 @@ public class main {
     String p = currency.format(2424555.354);
     System.out.println(p);
 
+    NumberFormat percent = NumberFormat.getPercentInstance();
+    String q = percent.format(0.1);
+    System.out.println(q);
+    /* short way, we are using 
+    method chaining: we are chaining multiple methods together*/
+    // NumberFormat.getPercentInstance().format(0.3);
+    String s = NumberFormat.getPercentInstance().format(0.3);
+    System.out.println(s);
+
+
+
+
+
   
   
   
