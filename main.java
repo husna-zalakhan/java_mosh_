@@ -161,11 +161,55 @@ public class main {
   
   // we can't cast a string to a number
 
-  String city = "1";
-  //1: 12 min 
+  String c = "1";
+  int d = Integer.parseInt(c) + 2;
+  System.out.println(d);
+  
+  String i = "34";
+  Integer.parseInt(i); //integer is class, parseInt is method
+  //this method take string and return integer
+  
+  String g= "23";
+  Short.parseShort(g);
+  //takes a string and return short
 
+  // The Math Class
+  //Round: we can round a floating value to  whole number
+  int intResult = Math.round(1.2F); 
+  System.out.println(intResult);
+  
+  /*Ceil: it is a method which return the smallest integer
+  that is greater than or equal to this number so the ceilling of 
+  1.1 is 2 */
+  int L = (int)Math.ceil(1.0002F);
+  System.out.println(L);
 
+  int j = (int)Math.floor(3.3F); //te floor of a number is the largest integer that is the smaller or
+  //equal to this number 
+  System.out.println(j);
 
+  int k = Math.max(4, 5);
+  System.out.println(k);
+  //max: return the greater of two values
+
+  int m = Math.min(7, 8);
+  System.out.println(m);
+  //min: return the smallest of two values
+
+  //Random: is generating a random value between 0 and 1
+  //this method return double
+  double n = Math.random();
+  System.out.println(n);// print a floating value between 0 and 1
+
+  // a number between 0 and 100
+  double o = Math.random() * 100;
+  //the method ,ath.random() doesn't take any argument
+  System.out.println(Math.round(Math.random() * 100));
+  /* if we want an integer result
+  int o = (int) (Math.random()* 100); */
+
+  
+  
 
 
 
