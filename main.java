@@ -1,6 +1,7 @@
 package practices.java_mosh_;
 
 import java.awt.Point;
+import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
 
@@ -208,6 +209,21 @@ public class main {
   /* if we want an integer result
   int o = (int) (Math.random()* 100); */
 
+  //Formatting Numbers
+  //Number Format class
+
+  // NumberFormat currency = new NumberFormat(); -----> Error
+  // this will give error because Number format class is abstract, it can't be instantiated 
+  // in java we have abstract classes, we can't create new operator to create instance of them
+
+  NumberFormat currency= NumberFormat.getCurrencyInstance();
+  /*this class will create an instance of the number formt class and return it 
+  so instead of using the "new" operator, we use this method and this is what we called a factory method.
+  Factory Method: it is like a factory, it creates new objcts. */
+  currency.format(2424555.354);
+  
+
+  
   
   
 
