@@ -4,6 +4,7 @@ import java.awt.Point;
 import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.Scanner;
 
 public class main {
 
@@ -231,6 +232,31 @@ public class main {
     // NumberFormat.getPercentInstance().format(0.3);
     String s = NumberFormat.getPercentInstance().format(0.3);
     System.out.println(s);
+
+    //Reading Input 
+     // System.in: used to read input from the keyboard(terminal)
+    // System.out: used to print output to the terminal(console) 
+
+    // scanner object
+    Scanner scanner = new Scanner(System.in); //inside this parenthesis we specify where we are gonna read data from, terminal window, file ...  
+    
+    //System.out.print("Age: " );
+    //byte myAge = scanner.nextByte();
+    //System.out.println("You are " + myAge);
+
+    //System.out.print("Your age: ");
+    //Double ageOld = scanner.nextDouble();
+    //System.out.println("you are: " + ageOld);
+
+    System.out.print("Name: ");
+    String name = scanner.nextLine().trim(); // trim method: used to remove spaces before the input
+    System.out.println("Your name is: " + name);
+
+    
+
+    
+
+
 
 
 
