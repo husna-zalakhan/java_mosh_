@@ -10,7 +10,7 @@ public class main {
 
     public void main(String[] args){ // the main method must be static
     System.out.println("Hi");// insie these parenthesis we can pass value to our method. 
-    A.listen();
+    A.main();
 
     // variables: used to temporally store data in computer's memiry.
     //primitive data type don't have members
