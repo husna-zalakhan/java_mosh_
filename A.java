@@ -81,7 +81,22 @@ public class A {// a class is a container for related methods.
             default:
                 System.out.println("You are a guest.");
         }
+
+        //For Loops: 
         
+        for (int i = 0; i < 5; i++)
+        //   variale i;  boolean expression determine how many times this loop is gonna executed; increment;
+        System.out.println("hi" + i);
+
+        for (int j = 5; j > 0; j--)
+            System.out.println("Bye" + j);
+
+
+
+
+
+
+
 
 
 
