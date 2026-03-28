@@ -104,13 +104,27 @@ public class A {// a class is a container for related methods.
        Scanner scanner = new Scanner(System.in);
 
        String input = "";
-       while (!input.equals("quit")){
+        while (!input.equals("quit")){ // in while loop, we check the condition first, if the condition falls first time, 
+        // this loop will never execyted.
         System.out.print("input: ");
         input = scanner.next().toLowerCase();
         System.out.println(input);
-        
-
        }
+
+       // Do.. While Loops
+       // check the condition at the end, it always execute the code at least once even if the condition is false 
+       
+    //    do {
+
+    //    } while ();
+
+    //    do {
+    //     System.out.print("input: ");
+    //     input = scanner.next().toLowerCase();
+    //     System.out.println(input);
+    //    } while (!input.equals("quit");
+    
+
 
 
 
