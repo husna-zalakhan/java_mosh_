@@ -129,8 +129,8 @@ public class A {// a class is a container for related methods.
     // continues statement moves control to the neginning of the loop
 
     String inputScanner = "";
-        while (true){ // in while loop, we check the condition first, if the condition falls first time, 
-        // this loop will never execyted.
+        while (true){ // while (true) we must use "break statement"
+            
         System.out.print("input Scanner: ");
         input = scanner.next().toLowerCase();
         if (inputScanner.equals("pass"))
