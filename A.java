@@ -13,8 +13,23 @@ public class A {// a class is a container for related methods.
         System.out.println(x != y); //inequality operator
         System.out.println(x< y);
         System.out.println(x<= y);
-    
-    
+
+        //Logical Operators
+
+        int temperature = 22;
+        boolean isWarm = temperature > 20 && temperature < 30; // Logical "And" operator
+        System.out.println(isWarm); 
+
+        boolean hasHighIncome = true;
+        boolean hasGoodCredit = true;
+        boolean hasCriminalRecord = false;
+        boolean isEligible = (hasHighIncome || hasGoodCredit) && !hasCriminalRecord; //Logical "or" operator // ! not operator
+        System.out.println(isEligible);
+
+        //not operator: used to reverse to reverse a value
+        
+       
+        
     
     
     
