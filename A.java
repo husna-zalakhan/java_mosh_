@@ -54,7 +54,14 @@ public class A {// a class is a container for related methods.
         // simple way
         boolean hasHighSalary = (income > 100_000);
 
+        // The Ternary Operator
+        // ? and : are ternary operator in java
+     
+        int salary = 120_000;
+        String className = salary > 100_000 ? "First" : "Economic";
+        System.out.println(className);
 
+        
 
 
             
