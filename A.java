@@ -28,7 +28,22 @@ public class A {// a class is a container for related methods.
 
         //not operator: used to reverse to reverse a value
         
-       
+        // If Statements: allow us to build programs that can make decisions based on the certain condition
+
+        int tempretureDegree = 32;
+
+        if ( tempretureDegree > 30){
+            System.out.println("It's a hod day, drink plenty of water. ");
+            } 
+        else if (tempretureDegree > 20 && tempretureDegree <= 30) 
+            System.out.println("It's a nice day. ");
+        else 
+            System.out.println("It's cold");
+            
+            
+                   
+        
+
         
     
     
