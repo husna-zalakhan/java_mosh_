@@ -1,5 +1,6 @@
 package practices.java_mosh_;
 // second part of the course
+import java.util.Scanner;
 
 public class A {// a class is a container for related methods.
     // we use classes to organize our code. 
@@ -90,6 +91,29 @@ public class A {// a class is a container for related methods.
 
         for (int j = 5; j > 0; j--)
             System.out.println("Bye" + j);
+
+        //While loops: use when you don't know how many times to repeat sth
+        int k = 3;
+        while ( k > 0) {
+            System.out.println("good morning" + k);
+            k--;
+        }
+       // we cannot use comparison operators between reference types
+       // cause they will compare the address of the string address not their value
+
+       Scanner scanner = new Scanner(System.in);
+
+       String input = "";
+       while (!input.equals("quit")){
+        System.out.print("input: ");
+        input = scanner.next().toLowerCase();
+        System.out.println(input);
+        
+
+       }
+
+
+
 
 
 
