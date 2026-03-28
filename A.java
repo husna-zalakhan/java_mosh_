@@ -39,7 +39,24 @@ public class A {// a class is a container for related methods.
             System.out.println("It's a nice day. ");
         else 
             System.out.println("It's cold");
-            
+    
+        // Simplyfying If Statements
+
+        int income = 120_000;
+        //boolean hasHighSalary = false;
+        // if (income > 100_000)
+        //     hasHighSalary = true;
+        // else 
+        //     hasHighSalary = false;
+
+        // System.out.println(hasHighSalary);
+
+        // simple way
+        boolean hasHighSalary = (income > 100_000);
+
+
+
+
             
                    
         
