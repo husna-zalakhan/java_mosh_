@@ -61,7 +61,30 @@ public class A {// a class is a container for related methods.
         String className = salary > 100_000 ? "First" : "Economic";
         System.out.println(className);
 
+        // Switch Statements: used to execute different parts of the code depending on the value of an expression.
+        // similar to if statemets
         
+        String role = "admin";
+        /*if (role == "admin")
+            System.out.println("you are an admin");
+        else if (role == "Moderator")
+            System.out.println("You are a Moderator. ");
+        else 
+            System.out.println("You are a guest.");
+        */
+        switch (role) {
+            case "admin": // colon
+                System.out.println("you are an admin. ");
+                break; // if we don't use "break statement" here, java will continue executing the following lines 
+            case "moderator":
+                System.out.println("You are a Moderator. ");
+            default:
+                System.out.println("You are a guest.");
+        }
+        
+
+
+
 
 
             
