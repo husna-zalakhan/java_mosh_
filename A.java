@@ -128,18 +128,33 @@ public class A {// a class is a container for related methods.
     // break statement terminate the loop
     // continues statement moves control to the neginning of the loop
 
-    String inputScanner = "";
-        while (true){ // while (true) we must use "break statement"
+    // String inputScanner = "";
+    //     while (true){ // while (true) we must use "break statement"
             
-        System.out.print("input Scanner: ");
-        input = scanner.next().toLowerCase();
-        if (inputScanner.equals("pass"))
-            continue;
-        if (inputScanner.equals("quit"))
-            break;
-        System.out.println(inputScanner);
-       }
+    //     System.out.print("input Scanner: ");
+    //     input = scanner.next().toLowerCase();
+    //     if (inputScanner.equals("pass"))
+    //         continue;
+    //     if (inputScanner.equals("quit"))
+    //         break;
+    //     System.out.println(inputScanner);
+    //         break;
+    //    }
 
+       // For-Each Loop
+       // used to iterate over arrays and collections
+       // for each loop is always forward
+       
+       String[] fruits = {"Apple", "Mango", "Banana"};
+
+       for (int a = 0; a < fruits.length; a++)
+            System.out.println(fruits[a]);
+
+       for (String fruit : fruits)
+        // the type of variable inside parenthesis should be based pn the type of items in out array.
+            System.out.println(fruit);
+        
+            
 
 
 
