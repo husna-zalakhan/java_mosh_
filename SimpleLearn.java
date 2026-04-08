@@ -46,18 +46,25 @@ public class SimpleLearn {
 
     
     //constructor
-    public SimpleLearn (String setName, int age, String address) {
+    public SimpleLearn (String name, int age, String address) {
         this.name = name;
         this.age = age;
         this.address = address;
     }
 
     public static void main(String[] args){
-        SimpleLearn ahmad = new SimpleLearn("Ahmad" , 25, "Kabul, Afghanistan"); 
-    // new is a keyword that can initialize anything in java
+        SimpleLearn ahmad = new SimpleLearn("Ahmad" , 25, "Kabul, Afghanistan"); // new onject from the class "SimpleLearn" 
+        // new is a keyword that can initialize anything in java
+        System.out.println(ahmad.getName());
+        System.out.println(ahmad.getAge());
+        System.out.println(ahmad.getAddress());
     
     }
-
+    //while creating a class, identify the properties(instance variable)
+    //and behaviors like getter and setter.
+    // a constructor that cover all the value you want to initialize
+    // initialize that calss ---> create an object out of that class
+     
 
     
 }
