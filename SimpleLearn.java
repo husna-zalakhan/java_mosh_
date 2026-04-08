@@ -63,8 +63,23 @@ public class SimpleLearn {
     //while creating a class, identify the properties(instance variable)
     //and behaviors like getter and setter.
     // a constructor that cover all the value you want to initialize
-    // initialize that calss ---> create an object out of that class
-     
+    // initialize that class ---> create an object out of that class
+
+    //Access Modifiers: are key words
+    // can use them in front of classes, variables, methods 
+
+    //security
+    // 1. public: can be accessed from everywhere (classes, package, subclasses, and world)
+    // 2. protected: everything whitihn the package, thatparticular class, subclass, can be accessed. 
+    // 3. no modifier (default access modifier): accessed whithin the same class, and whithin the same package. not accessed through subclasses and outside the package.
+    // 4. private: JUST accssesible whithin the class. 
+
+    //Package: you can rap multiple classes in one package
+
+    
+
+
+
 
     
 }
