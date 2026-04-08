@@ -44,6 +44,20 @@ public class SimpleLearn {
         return address;
     }
 
+    
+    //constructor
+    public SimpleLearn (String setName, int age, String address) {
+        this.name = name;
+        this.age = age;
+        this.address = address;
+    }
+
+    public static void main(String[] args){
+        SimpleLearn ahmad = new SimpleLearn("Ahmad" , 25, "Kabul, Afghanistan"); 
+    // new is a keyword that can initialize anything in java
+    
+    }
+
 
     
 }
