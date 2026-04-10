@@ -59,7 +59,7 @@ public class SimpleLearn {
         System.out.println(ahmad.getAge());
         System.out.println(ahmad.getAddress());
     
-    }
+    
     //while creating a class, identify the properties(instance variable)
     //and behaviors like getter and setter.
     // a constructor that cover all the value you want to initialize
@@ -76,7 +76,21 @@ public class SimpleLearn {
 
     //Package: you can rap multiple classes in one package
 
+    Test t = new Test();
+    t.display();
     
+
+    
+    //29:39
+    // inheritance 
+    // inheritance is also called "is a" relationship 
+    // "is a"  is a phrase used in inheritance relationship.
+    // ex: car "is a" vihicle
+    // child class is extending from the parent class
+    
+
+
+}
 
 
 
